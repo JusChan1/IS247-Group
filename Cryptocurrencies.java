@@ -1,8 +1,5 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
+
 public class Cryptocurrencies {
 
     public static void main(String[] args) {
@@ -93,8 +90,8 @@ public class Cryptocurrencies {
     }
 
     private static void printCoins(Stack coinStack) {
-        System.out.println(coinStack);
-        System.out.println("All virtual coins displayed.");
+            System.out.println(coinStack);
+            System.out.println("All virtual coins displayed.");
     }
 
     private static void printCoinList(Collection<Cryptocurrency> coins) {
